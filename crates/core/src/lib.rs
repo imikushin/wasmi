@@ -10,6 +10,7 @@
     clippy::map_unwrap_or,
     clippy::items_after_statements
 )]
+#![feature(trait_upcasting)]
 
 mod float;
 mod fuel;
